@@ -117,7 +117,7 @@ const ArtworksTable: React.FC = () => {
           date_end: item.date_end || 0,
         }));
 
-        artworks.forEach(row => {
+        artworks.forEach((row: { id: number; }) => {
           if (rowsFetched < count) {
             newSelectedRows.add(row.id);
             rowsFetched++;
