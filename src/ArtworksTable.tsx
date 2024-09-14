@@ -25,7 +25,7 @@ const ArtworksTable: React.FC = () => {
   const [totalRecords, setTotalRecords] = useState<number>(0);
   const [selectedRows, setSelectedRows] = useState<Set<number>>(new Set());
   const [page, setPage] = useState<number>(0);
-  const [rows, setRows] = useState<number>(12); 
+  const [rows] = useState<number>(12); 
   const [dialogVisible, setDialogVisible] = useState<boolean>(false);
   const [rowCountToSelect, setRowCountToSelect] = useState<number>(0);
   const [totalPages, setTotalPages] = useState<number>(0);
