@@ -1,0 +1,62 @@
+/* src/ArtworksTable.css */
+.datatable-crud-demo {
+    margin: 0 auto;
+    max-width: 80%;
+    padding: 2rem;
+  }
+  
+  .table-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+  
+  .header-checkbox-container {
+    display: flex;
+    align-items: center;
+
+  }
+  
+  .select-all-checkbox {
+    margin-right: 0.5rem;
+    margin-top: 0.25rem; /* Adjust margin-top to vertically align with row checkboxes */
+  }
+  
+  .select-all-icon {
+    font-size: 1.2rem; /* Adjust size as needed */
+    cursor: pointer; /* Optional: add pointer cursor */
+  }
+  
+  .p-datatable-thead > tr > th {
+    text-align: center;
+    vertical-align: middle; /* Ensure vertical alignment in table header */
+  }
+  
+  .p-datatable-tbody > tr > td {
+    text-align: center;
+    vertical-align: middle; /* Ensure vertical alignment in table body */
+  }
+  
+  .p-dialog .p-button {
+    margin: 0.5rem;
+    color: black; /* Set button text color to black */
+  }
+  
+  .p-dialog .p-button.p-button-primary {
+    background-color: #007ad9; /* Default PrimeReact primary color */
+    border-color: #007ad9; /* Primary color border */
+    color: black; /* Override text color to black */
+  }
+  
+  .p-dialog .p-button.p-button-secondary {
+    background-color: #f4f4f4; /* Default PrimeReact secondary color */
+    border-color: #dcdcdc; /* Secondary color border */
+    color: black; /* Override text color to black */
+  }
+  
+  .p-dialog .p-button.p-button-outlined {
+    color: black; /* Text color for outlined button */
+    border-color: black; /* Border color for outlined button */
+  }
+  
