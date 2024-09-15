@@ -73,11 +73,11 @@ const ArtworksTable: React.FC = () => {
 
   const handleSelectAllChange = () => {
     if (isAllSelected()) {
-      // Deselect all rows on the current page
+     
       data.forEach(row => selectedRows.delete(row.id));
       setSelectedRows(new Set(selectedRows));
     } else {
-      // Select all rows on the current page
+      
       data.forEach(row => selectedRows.add(row.id));
       setSelectedRows(new Set(selectedRows));
     }
